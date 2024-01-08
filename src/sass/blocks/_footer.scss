@@ -1,0 +1,33 @@
+.footer {
+    padding: 10px 0 0 10px;
+    background-color: rgba(0, 0, 0, .7);
+    &-wrapper {
+        display: flex;
+        justify-content: space-between;
+        &_network {
+            display: flex;
+        }
+        &_paragraph {
+            text-align: center;
+            font-size: 7px;
+            color: #fff;
+            padding: 8px 0 0 0;
+        }
+        &_link {
+            margin-right: 5px;
+        }
+    }
+    .footer-wrapper > div {
+        width: 33%;
+        &:nth-child(2) {
+            display: flex;
+            flex-direction: column;
+            width: 80px;
+        }
+        &:nth-child(1) {
+            display: flex;
+            flex-direction: column;
+            width: 80px;
+        }
+    }
+}
